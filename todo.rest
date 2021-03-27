@@ -1,0 +1,14 @@
+GET http://localhost:3002/movies
+
+###
+
+POST http://localhost:3002/movies
+Content-Type: application/json
+
+{
+       
+    "title": "Test Movie",
+    "movie_type": "Action Thrill",
+    "id": "100",
+    "year": "1900"
+}
